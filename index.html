@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -93,6 +93,15 @@
       align-items: center;
       justify-content: center;
       font-size: 0.9em;
+      position: relative; 
+    }
+
+    .footer p {
+      position: absolute; 
+      bottom: 20px;      
+      text-align: center; 
+      width: 100%;        
+      margin: 0;          
     }
 
     section {
@@ -161,10 +170,7 @@
 </head>
 <body>
   <div class="grid-container">
-    <!-- HEADER -->
     <header class="header">Marcell Kapas - Portfolio</header>
-
-    <!-- SIDEBAR NAV -->
     <nav class="sidebar">
       <ul>
         <li><a href="#summary" style="color:white; text-decoration:none;">Summary</a></li>
@@ -179,6 +185,7 @@
         <button class="resume-btn">Download Resume</button>
       </a>
     </nav>
+
     <main class="main">
       <section id="summary">
         <h2>Summary</h2>
@@ -217,7 +224,6 @@
         </table>
       </section>
 
-
       <section id="skills">
         <h2>Skills</h2>
         <div class="skills-container">
@@ -231,7 +237,6 @@
           <div>Innovative Thinking</div>
         </div>
       </section>
-
 
       <section id="projects">
         <h2>Projects</h2>
@@ -253,7 +258,6 @@
           </div>
         </div>
       </section>
-
 
       <section id="video">
         <h2>Introduction Video</h2>
